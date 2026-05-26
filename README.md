@@ -1,89 +1,260 @@
-# (WHOLE)² 
-[![Tech Stack](https://img.shields.io/badge/Stack-React%20%7C%20Vite%20%7C%20Tailwind-blue)](#)
-[![AMD Slingshot](https://img.shields.io/badge/AMD-Slingshot%202026-ED1C24)](#)
-[![Deployment](https://img.shields.io/badge/Deploy-Render-informational)](#)
+<div align="center">
 
-**An AI-Powered, Digital-First Commerce Engine (Frontend Prototype)**  
-(WHOLE)² is a next-generation marketplace designed to connect elite global brands with modern consumers through an immersive, AI-driven experience. This is a submission for the **AMD Slingshot 2026** competition.
+# (WHOLE)²
+
+### AI-Powered Digital-First Commerce Engine
+
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![React Router](https://img.shields.io/badge/React_Router-7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)](https://reactrouter.com)
+[![Render](https://img.shields.io/badge/Render-Deploy-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://render.com)
+
+An immersive marketplace that connects elite global brands with modern consumers through an AI-driven experience. Features intelligent product discovery, seller analytics, and a conversational AI assistant — all built with a cinematic, design-first approach.
+
+**Youth Code x AI 2026 — Open Track**
+
+</div>
 
 ---
 
-##  Live Demo
-Explore the live experience here: [(WHOLE)² Live on Render](https://ketan-chokkaras-whole2-btxw.onrender.com/)
+## How It Works
 
----
+(WHOLE)² delivers a full-stack commerce experience where AI enhances every touchpoint — from product discovery to seller growth insights.
 
-##  Project Structure
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                         USER EXPERIENCE FLOW                        │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│   Visitor Arrives                                                   │
+│        │                                                            │
+│        ▼                                                            │
+│   ┌─────────────────┐    ┌──────────────────┐    ┌──────────────┐  │
+│   │  Cinematic Hero  │───▶│  AI-Assisted     │───▶│  Product     │  │
+│   │  Landing Page    │    │  Search & Browse  │    │  Discovery   │  │
+│   └─────────────────┘    └──────────────────┘    └──────────────┘  │
+│        │                         │                      │          │
+│        ▼                         ▼                      ▼          │
+│   Brand Storytelling      Category Filtering      Smart Results    │
+│                                                                     │
+│   ┌─────────────────────────────────────────────────────────────┐  │
+│   │              Add to Cart → Checkout → Confirmation           │  │
+│   └─────────────────────────────────────────────────────────────┘  │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
 
-```bash
-marketplace/
-├── src/
-│   ├── App.jsx                # Root router with code-splitting
-│   ├── index.css              # Global design system & animations
-│   ├── main.jsx               # App entry point
-│   ├── assets/                # Visual assets
-│   │   ├── animations/        # Lottie JSON exports
-│   │   ├── images/            # Curated brand photography
-│   │   └── videos/            # Immersive hero backgrounds
-│   ├── components/            # Shared UI Library
-│   │   ├── header/            # AI-integrated navigation
-│   │   ├── footer.jsx         # Global footer
-│   │   ├── chatbot/           # Customer support AI
-│   │   └── ui/                # Base design tokens
-│   ├── features/              # Modular Business Logic
-│   │   ├── customer-dashboard # Profile, Cart, and Messaging
-│   │   └── seller-dashboard   # Analytics & AI Growth Assistant
-│   └── pages/                 # Route-level components
-│       ├── Home/              # Cinematic landing page
-│       ├── Shop/              # Brand-first discovery
-│       └── Support/           # Dynamic FAQ & Help Center
-├── vite.config.js             # Optimized build config
-└── render.yaml                # Infrastructure as Code
+┌─────────────────────────────────────────────────────────────────────┐
+│                        SELLER DASHBOARD FLOW                        │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│   Seller Login                                                      │
+│        │                                                            │
+│        ▼                                                            │
+│   ┌──────────────┐     ┌──────────────┐     ┌───────────────────┐  │
+│   │  Dashboard    │────▶│  Manage      │────▶│  AI Growth        │  │
+│   │  Overview     │    │  Products     │    │  Assistant         │  │
+│   └──────────────┘     └──────────────┘     └───────────────────┘  │
+│                                                     │              │
+│                                                     ▼              │
+│                                            ┌──────────────────┐   │
+│                                            │  Analytics &      │   │
+│                                            │  Trend Insights   │   │
+│                                            └──────────────────┘   │
+│                                                                     │
+│   ┌──────────────┐     ┌──────────────┐                            │
+│   │  Add / Edit  │────▶│  Inventory   │                            │
+│   │  Listings    │    │  Management  │                            │
+│   └──────────────┘     └──────────────┘                            │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│                         AI TOUCHPOINTS                              │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│   ┌─────────────────┐  ┌─────────────────┐  ┌──────────────────┐  │
+│   │  AI Chatbot      │  │  AI Search       │  │  AI Seller       │  │
+│   │  (Conversational │  │  (Contextual     │  │  Assistant        │  │
+│   │   Support)       │  │   Discovery)     │  │  (Growth Hints)   │  │
+│   └─────────────────┘  └─────────────────┘  └──────────────────┘  │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Our Vision
-(WHOLE)² isn't just a store, it's a commerce engine. We believe that buying from top-tier brands should be as seamless as talking to a friend. By leveraging AI at every touchpoint—from discovery to growth analytics—we empower both consumers and sellers to achieve more.
+## Key Features
 
----
-
-##  Key Features
-
-### 1 AI-Integrated discovery
-- **AI Search Widget**: A smart, contextual search experience built into the navigation.
-- **Cinematic Experience**: High-fidelity video backgrounds and smooth transitions for a premium feel.
-- **Regional Discovery**: Intelligent filtering for global and local brand recognition.
-
-### 2 Seller Growth Hub
-- **AI Growth Assistant**: A dedicated companion for sellers to analyze trends and optimize their storefront.
-- **Unified Analytics**: Real-time sales and engagement metrics visualized for clarity.
-- **Inventory Management**: Simplified workflows for managing luxury product listings.
-
-### 3 Intelligent Support
-- **Support Engine**: Automated, 24/7 assistance across Shipping, FAQs, and Seller assistance.
-- **Live Chat Integration**: Seamless connection between brand partners and their customers.
+- **Cinematic Landing Experience** — Full-screen video hero with smooth transitions and brand-first storytelling that sets a premium tone from the first pixel.
+- **AI-Integrated Navigation** — Smart search widget embedded in the header for contextual, intent-aware product discovery.
+- **Dual Dashboard System** — Separate seller and customer dashboards with role-based views, analytics, and management tools.
+- **Seller Growth Hub** — AI companion for sellers to analyze trends, manage inventory, and optimize their storefront with real-time metrics.
+- **Intelligent Support Engine** — Conversational AI chatbot for 24/7 automated assistance, plus dedicated FAQ, shipping, and seller support pages.
+- **Code-Split Routing** — Every route is lazy-loaded with `React.lazy` for instant initial paint, with vendor chunks split for optimal caching.
+- **Cart & Checkout Flow** — Full shopping flow with cart management, checkout, and order confirmation.
+- **Mobile-First Overlay** — Desktop-optimized experience with a clean mobile redirect screen and "coming soon" messaging.
 
 ---
 
 ## Tech Stack
-- **Framework:** React 19 (Vite 7)
-- **Styling:** Vanilla CSS + Tailwind CSS 4.0
-- **Animations:** Lottie React, CSS keyframes, Framer-style transitions
-- **Routing:** React Router 7 (Optimized with `React.lazy` code-splitting)
-- **Icons:** Lucide React & FontAwesome
-- **Infrastructure:** Render (Static Web Service)
+
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| **Framework** | React 19 + Vite 7 | Component-driven UI with lightning-fast HMR and optimized builds |
+| **Styling** | Tailwind CSS 4.0 + Vanilla CSS | Utility-first styling with a custom design system |
+| **Routing** | React Router 7 | SPA navigation with lazy-loaded route splitting |
+| **Animations** | Lottie React + CSS Keyframes | High-fidelity micro-interactions and cinematic transitions |
+| **Icons** | Lucide React + FontAwesome | Comprehensive icon coverage across UI and branding |
+| **State** | React Context API | Lightweight global state for auth and cart |
+| **Notifications** | React Toastify | Non-blocking user feedback and alerts |
+| **Infrastructure** | Render (Static Web Service) | Zero-config deployment with SPA rewrite routing |
 
 ---
 
-##  Future Improvements
-- **AMD Hardware Optimization**: Optimize AI inference workloads for **AMD MI300X** accelerators and **Ryzen AI** NPUs for ultra-low latency marketplace experiences.
-- **Gemini & Vertex AI**: Connect the backend to Vertex AI for production-grade AI insights.
-- **Real-time Persistence**: Integration with MongoDB for live cart and profile syncing.
-- **Payment Ecosystem**: Full Razorpay/Stripe implementation for global transactions.
-- **Advanced CRM**: Intelligent messaging triggers based on user behavior patterns.
+## Project Structure
+
+```
+Frontend/
+├── index.html                     # Entry HTML with meta tags
+├── vite.config.js                 # Build config with chunk splitting & API proxy
+├── render.yaml                    # Infrastructure as Code for Render
+├── package.json                   # Dependencies & scripts
+│
+├── public/                        # Static assets served directly
+│
+└── src/
+    ├── main.jsx                   # App bootstrap & React root
+    ├── App.jsx                    # Root router with code-splitting
+    ├── index.css                  # Global design system & animations
+    │
+    ├── assets/
+    │   ├── animations/            # Lottie JSON exports
+    │   ├── images/                # Curated brand photography
+    │   └── videos/                # Immersive hero backgrounds
+    │
+    ├── components/
+    │   ├── header/                # AI-integrated navigation bar
+    │   ├── footer.jsx             # Global site footer
+    │   ├── chatbot/               # Conversational AI support widget
+    │   ├── ProductDetails.jsx     # Product detail page component
+    │   ├── product-card.jsx       # Reusable product card
+    │   ├── checkout/              # Checkout flow components
+    │   ├── orders/                # Order confirmation & history
+    │   └── ui/                    # Shared design tokens & primitives
+    │
+    ├── features/
+    │   ├── customer-dashboard/    # Cart, profile, and order management
+    │   ├── seller-dashboard/      # Analytics, listings, and AI assistant
+    │   └── components/            # Shared feature components (categories, product cards)
+    │
+    ├── pages/
+    │   ├── Home/hero/             # Cinematic landing page
+    │   ├── Shop/                  # Brand-first product discovery
+    │   ├── Categories/            # Category browsing
+    │   ├── About/                 # Brand story
+    │   ├── Auth/                  # Sign in / Sign up
+    │   ├── Checkout/              # Purchase flow
+    │   ├── Product/               # Product pages
+    │   └── Support/               # FAQ, Shipping, Seller help
+    │
+    └── context/
+        ├── AuthContext.jsx        # Authentication state & role management
+        └── CartContext.jsx        # Shopping cart state
+```
 
 ---
 
-##  Submission Note
-This prototype represents a vision for high-performance commerce, submitted to the **AMD Slingshot 2026** competition to demonstrate how design-first engineering and AI can redefine the global brand experience.
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/CodeUltr0n/WHOLE2---Youth-Code-x-AI-2026.git
+cd WHOLE2---Youth-Code-x-AI-2026/Frontend
+
+# Install dependencies
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+The dev server starts at `http://localhost:5173` with hot module replacement.
+
+> **Note:** The Vite config proxies `/api/*` requests to a Flask backend at `http://127.0.0.1:5000`. Some features (auth, AI chatbot, seller analytics) require the backend to be running.
+
+### Production Build
+
+```bash
+npm run build
+npm run preview   # Preview the production build locally
+```
+
+The build outputs to `dist/` with optimized vendor chunk splitting for React, Lottie, and icon libraries.
+
+---
+
+## Deployment
+
+The app is deployed on **Render** as a static web service. The `render.yaml` handles:
+
+- Automatic builds from the main branch
+- SPA rewrite routing (all routes serve `index.html`)
+- Static asset caching
+
+```
+Build Command:  npm install; rm -rf dist; npm run build
+Publish Path:   dist
+```
+
+---
+
+## Architecture Decisions
+
+| Decision | Rationale |
+|----------|-----------|
+| **Lazy-loaded routes** | Every page component uses `React.lazy()` — keeps the initial bundle under 100KB and loads features on demand |
+| **Manual chunk splitting** | Vendor libraries (React, Lottie, Icons) are separated into stable chunks for long-term browser caching |
+| **Context over Redux** | Auth and cart state are simple enough for React Context — avoids boilerplate and extra dependencies |
+| **Desktop-first overlay** | The cinematic experience relies on widescreen video and layout — mobile gets a clean redirect rather than a compromised experience |
+| **Render static hosting** | Zero-config SPA deployment with built-in CDN and SSL, with API proxying handled at the Vite level during development |
+
+---
+
+## Future Roadmap
+
+- **AI Backend Integration** — Connect to Google Vertex AI / Gemini for production-grade product recommendations and chatbot intelligence.
+- **Flutter Mobile App** — Cross-platform native companion app for iOS and Android.
+- **Real-time Persistence** — MongoDB integration for live cart syncing, user profiles, and order history.
+- **Payment Gateway** — Full Razorpay / Stripe checkout for global transactions.
+- **Advanced Seller CRM** — Intelligent messaging triggers and customer segmentation based on behavior patterns.
+- **Web Analytics Layer** — Track user journeys, conversion funnels, and engagement metrics for sellers.
+
+---
+
+## Acknowledgments
+
+- [React](https://react.dev) & [Vite](https://vite.dev) for the development framework
+- [Tailwind CSS](https://tailwindcss.com) for the utility-first styling system
+- [Lottie](https://lottiefiles.com) for lightweight, scalable animations
+- [Render](https://render.com) for seamless deployment infrastructure
+
+---
+
+<div align="center">
+
+**Built with AI, designed for commerce.**
+
+Youth Code x AI 2026 — Open Track
+
+</div>
