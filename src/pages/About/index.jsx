@@ -105,7 +105,7 @@ const AboutPage = () => {
             </p>
             {/* 2. This paragraph is now updated to explicitly mention Gen AI. */}
             <p className="text-gray-600 leading-relaxed">
-             Built for AMD Slingshot, our smart commerce engine uses Generative AI to turn virtual stores into active sales partners. It optimizes pricing and drives engagement for brands, while giving customers a hyper-personalized, tailored shopping experience.
+             Built for Youth Code x AI 2026, our smart commerce engine uses Generative AI to turn virtual stores into active sales partners. It optimizes pricing and drives engagement for brands, while giving customers a hyper-personalized, tailored shopping experience.
             </p>
           </div>
         </div>
@@ -163,14 +163,8 @@ const AboutPage = () => {
             (WHOLE)²
           </div>
           <p className="text-sm text-gray-600 max-w-4xl mx-auto mb-4">
-            <strong>About Slingshot:</strong> AMD's national startup challenge empowering students to build the future of AI through mentorship and real-world solutions.
+            <strong>Youth Code x AI 2026 — Open Track:</strong> Empowering the next generation of builders to solve real-world problems with AI-powered solutions.
           </p>
-           {/* AMD Logo */}
-          <img 
-            src="/images/Amd1.png" 
-            alt="AMD Logo" 
-            className="mx-auto h-20 w-auto" 
-          />
         </div>
       </div>
 
