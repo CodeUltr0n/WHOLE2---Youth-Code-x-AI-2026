@@ -8,6 +8,7 @@
 [![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![React Router](https://img.shields.io/badge/React_Router-7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)](https://reactrouter.com)
+[![Flutter](https://img.shields.io/badge/Flutter-3-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Render](https://img.shields.io/badge/Render-Deploy-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://render.com)
 
 An immersive marketplace that connects elite global brands with modern consumers through an AI-driven experience. Features intelligent product discovery, seller analytics, and a conversational AI assistant — all built with a cinematic, design-first approach.
@@ -15,6 +16,12 @@ An immersive marketplace that connects elite global brands with modern consumers
 **Youth Code x AI 2026 — Open Track**
 
 </div>
+
+---
+
+## Live Demo
+
+Explore the live experience: **[(WHOLE)² on Render](https://whole2-youth-code-x-ai-2026.onrender.com/)**
 
 ---
 
@@ -93,7 +100,7 @@ An immersive marketplace that connects elite global brands with modern consumers
 - **Intelligent Support Engine** — Conversational AI chatbot for 24/7 automated assistance, plus dedicated FAQ, shipping, and seller support pages.
 - **Code-Split Routing** — Every route is lazy-loaded with `React.lazy` for instant initial paint, with vendor chunks split for optimal caching.
 - **Cart & Checkout Flow** — Full shopping flow with cart management, checkout, and order confirmation.
-- **Mobile-First Overlay** — Desktop-optimized experience with a clean mobile redirect screen and "coming soon" messaging.
+- **Cross-Platform Mobile App** — Built with Flutter for iOS and Android, bringing the full marketplace experience natively to mobile.
 
 ---
 
@@ -108,6 +115,7 @@ An immersive marketplace that connects elite global brands with modern consumers
 | **Icons** | Lucide React + FontAwesome | Comprehensive icon coverage across UI and branding |
 | **State** | React Context API | Lightweight global state for auth and cart |
 | **Notifications** | React Toastify | Non-blocking user feedback and alerts |
+| **Mobile App** | Flutter (Dart) | Cross-platform native app for iOS and Android |
 | **Infrastructure** | Render (Static Web Service) | Zero-config deployment with SPA rewrite routing |
 
 ---
@@ -162,6 +170,19 @@ Frontend/
         ├── AuthContext.jsx        # Authentication state & role management
         └── CartContext.jsx        # Shopping cart state
 ```
+
+---
+
+## Flutter Mobile App
+
+The (WHOLE)² marketplace is also available as a cross-platform mobile app built with **Flutter**, delivering a native experience on both iOS and Android.
+
+<!-- Add mobile app screenshots here -->
+
+| | | |
+|:---:|:---:|:---:|
+| ![Screenshot 1](placeholder1.png) | ![Screenshot 2](placeholder2.png) | ![Screenshot 3](placeholder3.png) |
+| Home | Shop | Cart |
 
 ---
 
@@ -234,7 +255,6 @@ Publish Path:   dist
 ## Future Roadmap
 
 - **AI Backend Integration** — Connect to Google Vertex AI / Gemini for production-grade product recommendations and chatbot intelligence.
-- **Flutter Mobile App** — Cross-platform native companion app for iOS and Android.
 - **Real-time Persistence** — MongoDB integration for live cart syncing, user profiles, and order history.
 - **Payment Gateway** — Full Razorpay / Stripe checkout for global transactions.
 - **Advanced Seller CRM** — Intelligent messaging triggers and customer segmentation based on behavior patterns.
