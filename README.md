@@ -23,6 +23,10 @@ An immersive marketplace that connects elite global brands with modern consumers
 
 Explore the live experience: **[(WHOLE)² on Render](https://whole2-youth-code-x-ai-2026.onrender.com/)**
 
+### Demo Video
+
+[![Demo Video](https://img.shields.io/badge/Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1MSP_dJ3UBAZIIPn2tFXWPAsxEgkXMY7E/view?usp=sharing)
+
 ---
 
 ## How It Works
@@ -177,12 +181,7 @@ Frontend/
 
 The (WHOLE)² marketplace is also available as a cross-platform mobile app built with **Flutter**, delivering a native experience on both iOS and Android.
 
-<!-- Add mobile app screenshots here -->
-
-| | | |
-|:---:|:---:|:---:|
-| ![Screenshot 1](placeholder1.png) | ![Screenshot 2](placeholder2.png) | ![Screenshot 3](placeholder3.png) |
-| Home | Shop | Cart |
+> Mobile app source code is maintained in a separate repository by the mobile team member.
 
 ---
 
