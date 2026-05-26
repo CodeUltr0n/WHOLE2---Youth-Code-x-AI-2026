@@ -183,6 +183,13 @@ The (WHOLE)² marketplace is also available as a cross-platform mobile app built
 
 > Mobile app source code is maintained in a separate repository by the mobile team member.
 
+| | | |
+|:---:|:---:|:---:|
+| ![Home](screenshots/mobile-home.png) | ![Shop](screenshots/mobile-shop.png) | ![Cart](screenshots/mobile-cart.png) |
+| Home | Shop | Cart |
+
+> Drop your Flutter screenshots into `screenshots/` and update the paths above.
+
 ---
 
 ## Getting Started
