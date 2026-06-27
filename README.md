@@ -185,8 +185,11 @@ The (WHOLE)² marketplace is also available as a cross-platform mobile app built
 
 | | | |
 |:---:|:---:|:---:|
-| ![Home](screenshots/mobile-home.png) | ![Shop](screenshots/mobile-shop.png) | ![Cart](screenshots/mobile-cart.png) |
-| Home | Shop | Cart |
+| ![Home](<img width="799" height="1600" alt="mobile-home" src="https://github.com/user-attachments/assets/27563155-1aea-4e2a-bc30-a8dbe8d856bd" />
+) | ![Shop](<img width="799" height="1600" alt="mobile-shop" src="https://github.com/user-attachments/assets/42ce3257-2806-4bcc-8533-1ec1950151c3" />
+) | ![Emoloyees-Information](<img width="799" height="1600" alt="mobile-cart" src="https://github.com/user-attachments/assets/aa281274-c479-4c96-aed0-6fb9d9737de6" />
+) |
+| Home | Shop | Emoloyees-Information |
 
 > Drop your Flutter screenshots into `screenshots/` and update the paths above.
 
