@@ -183,17 +183,11 @@ The (WHOLE)² marketplace is also available as a cross-platform mobile app built
 
 > Mobile app source code is maintained in a separate repository by the mobile team member.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/27563155-1aea-4e2a-bc30-a8dbe8d856bd" width="220" alt="Home"/>
-  <img src="https://github.com/user-attachments/assets/42ce3257-2806-4bcc-8533-1ec1950151c3" width="220" alt="Shop"/>
-  <img src="https://github.com/user-attachments/assets/aa281274-c479-4c96-aed0-6fb9d9737de6" width="220" alt="Employees Information"/>
-</p>
+| Home | Shop | Employees Information |
+|:----:|:----:|:---------------------:|
+| ![Home](https://github.com/user-attachments/assets/27563155-1aea-4e2a-bc30-a8dbe8d856bd) | ![Shop](https://github.com/user-attachments/assets/42ce3257-2806-4bcc-8533-1ec1950151c3) | ![Employees Information](https://github.com/user-attachments/assets/aa281274-c479-4c96-aed0-6fb9d9737de6) |
 
-<p align="center">
-  <b>Home</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Shop</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Employees Information</b>
-</p>
+---
 
 ## Architecture Decisions
 
