@@ -191,8 +191,6 @@ The (WHOLE)² marketplace is also available as a cross-platform mobile app built
 ) |
 | Home | Shop | Emoloyees-Information |
 
-> Drop your Flutter screenshots into `screenshots/` and update the paths above.
-
 ---
 
 ## Architecture Decisions
