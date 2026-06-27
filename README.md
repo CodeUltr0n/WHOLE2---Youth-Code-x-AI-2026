@@ -187,6 +187,7 @@ The (WHOLE)² marketplace is also available as a cross-platform mobile app built
 |:----:|:----:|:---------------------:|
 | ![Home](https://github.com/user-attachments/assets/27563155-1aea-4e2a-bc30-a8dbe8d856bd) | ![Shop](https://github.com/user-attachments/assets/42ce3257-2806-4bcc-8533-1ec1950151c3) | ![Employees Information](https://github.com/user-attachments/assets/aa281274-c479-4c96-aed0-6fb9d9737de6) |
 
+Mobile application source code :- https://github.com/SharveeshM1/whole_app
 ---
 
 ## Architecture Decisions
