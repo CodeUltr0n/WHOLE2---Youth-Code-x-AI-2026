@@ -25,7 +25,7 @@ Explore the live experience: **[(WHOLE)² on Render](https://whole2-youth-code-x
 
 ### Demo Video
 
-[![Demo Video](https://img.shields.io/badge/Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1MSP_dJ3UBAZIIPn2tFXWPAsxEgkXMY7E/view?usp=sharing)
+[![Demo Video](https://img.shields.io/badge/Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/I00r9DnFBYo)
 
 ---
 
